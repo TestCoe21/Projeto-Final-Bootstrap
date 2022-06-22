@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/secoes/carrossel.css">
     <link rel="stylesheet" href="css/secoes/header.css">
+    <link rel="stylesheet" href="css/secoes/sobre.css">
     <link rel="stylesheet" href="css/media-queries/1199px.css">
     <link rel="stylesheet" href="css/media-queries/991px.css">
     <link rel="stylesheet" href="css/media-queries/767px.css">
@@ -381,50 +382,54 @@
                 </div>
             </div>
         </div>
-        <nav class="menu" id="nav">
-            <ul id="ul">
-                <li class="dropdown">
-                    <a href="#" id="sobre" class="dropbtn">Sobre nós</a>
-                    <div class="dropdown-content sobre">
-                        <a href="#">História</a>
-                        <a href="#">Filosofia</a>
-                        <a href="#">Localização</a>
-                        <a href="#">Agenda</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#" id="pontos" class="dropbtn">Pontos</a>
-                    <div class="dropdown-content pontos">
-                        <a href="#">Download</a>
-                        <a href="#">Letras</a>
-                        <a href="#">Entidades</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#" id="cursos" class="dropbtn">Cursos</a>
-                    <div class="dropdown-content cursos">
-                        <a href="#">Comunidade</a>
-                        <a href="#">Corrente</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#" id="loja" class="dropbtn">Nossa loja</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" id="blog" class="dropbtn">Blog</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" id="fotos" class="dropbtn">Fotos</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" id="leitura" class="dropbtn">Leitura</a>
-                    <div class="dropdown-content leitura">
-                        <a href="#">Livros</a>
-                        <a href="#">Textos</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
+
+        <!-- Menu -->
+        <div class="menu-header">
+            <nav class="menu" id="nav">
+                <ul id="ul">
+                    <li class="dropdown">
+                        <a href="#sobre-section" id="sobre" class="dropbtn">Sobre nós</a>
+                        <div class="dropdown-content sobre">
+                            <a href="#sobre-section" class="ancor">História</a>
+                            <a href="#filosofia-section" class="ancor">Filosofia</a>
+                            <a href="#filosofia-section" class="ancor">Localização</a>
+                            <a href="#agenda-section" class="ancor">Agenda</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#pontos-section" id="pontos" class="dropbtn">Pontos</a>
+                        <div class="dropdown-content pontos">
+                            <a href="#download-section" class="ancor">Download</a>
+                            <a href="#letras-section" class="ancor">Letras</a>
+                            <a href="#entidades-section" class="ancor">Entidades</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#cursos-section" id="cursos" class="dropbtn">Cursos</a>
+                        <div class="dropdown-content cursos">
+                            <a href="#comunidade-section" class="ancor">Comunidade</a>
+                            <a href="#corrente-section" class="ancor">Corrente</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#loja-section" id="loja" class="dropbtn ancor">Nossa loja</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#blog-section" id="blog" class="dropbtn ancor">Blog</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#fotos-section" id="fotos" class="dropbtn ancor">Fotos</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#leitura-section" id="leitura" class="dropbtn">Leitura</a>
+                        <div class="dropdown-content leitura">
+                            <a href="#livros-section" class="ancor">Livros</a>
+                            <a href="#textos-section" class="ancor">Textos</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- Header Mobile -->
@@ -554,7 +559,35 @@
 
     <!-- Sobre nós -->
     <div class="sobre">
-
+        <div class="container">
+            <h2>Sobre nós</h2>
+            <div class="row">
+                <div class="col">
+                  <h4>História</h4>
+                  <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto beatae minima, hic quia qui vel veniam similique! Voluptas nihil magni optio quidem quo excepturi quam qui cumque. Quis, reiciendis quia?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, iure dolore eaque similique explicabo nobis minima recusandae quibusdam, neque perferendis aperiam? Quas, rem. Iusto fuga veritatis eaque adipisci necessitatibus autem?
+                  </p>
+                </div>
+                <div class="col">
+                  <h4>Filosofia</h4>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore necessitatibus veritatis, minima est possimus ipsa illo, atque perspiciatis hic harum et unde animi officia in quibusdam quis similique quas.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea architecto delectus aliquam maiores earum facere perspiciatis ex, tempora molestiae neque quis reprehenderit officia quam similique velit magni illum quia quidem!
+                  </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                  <h4>Localização</h4>
+                  <img src="img/mapa.JPG" class="img-sobre" alt="">
+                </div>
+                <div class="col">
+                  <h4>Agenda</h4>
+                  <img src="img/calendario.jpg" class="img-sobre" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Scripts -->
