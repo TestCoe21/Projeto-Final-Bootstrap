@@ -1,0 +1,114 @@
+/* Menu */
+
+@media (min-width: 992px) and (max-width: 1199px){
+    #header-desktop{
+        height: 2.5em;
+        max-width: 800px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    nav li a{
+        position: relative;
+        height: 27px;
+        width: 7.3em;
+        font-size: 0.95em;
+        padding-top: 0.2em;
+    }
+    nav li div a{
+        max-width: 7.3em;
+    }
+    .carrossel{
+        padding-top: 10em;
+    }
+
+    #topo{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 100%;
+        display: flex;
+    }
+    
+    #tumbae-topo{
+        width: 22em;
+        padding-left: 0;
+        padding-top: 0.5em;
+    }
+    
+    .logo-topo{
+        width: 33.33333%;
+        height: 100%;
+        position: relative;
+        float: left;
+    }
+    
+    .icons-topo{
+        width: 33.33333%;
+        height: 100%;
+        position: relative;
+        float: none;
+        margin-left: 5em;
+    }
+    
+    .icon-topo{
+        text-align: center;
+        font-weight: 700;
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        padding-left: 1.7em;
+    }
+    
+    .icon-topo p{
+        margin: 0;
+        color: #141414;
+    }
+    
+    .icon-topo i{
+        font-size: 1.3em;
+        color: #141414;
+    }
+    
+    .linha{
+        display: flex;
+        width: 100%;
+    }
+    
+    .linha1{
+        height: 2px;
+        width: 50%;
+        background: linear-gradient(5deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0, 0) 35%, rgb(0, 0, 0, 0.5) 100%);
+    }
+    
+    .linha2{
+        height: 2px;
+        width: 50%;
+        background: linear-gradient(5deg, rgba(0, 0, 0, 0.5) 0%, rgb(0, 0, 0, 0.5) 35%, rgb(0, 0, 0, 0) 80%);
+    }
+    
+    .perfil-topo{
+        width: 33.33333%;
+        height: 100%;
+        position: relative;
+        float: none;
+        margin-right: 0;
+    }
+    
+    .icon-perfil-topo{
+        text-align: center;
+        font-weight: 700;
+        padding-bottom: 0.3em;
+        padding-top: 0.6em;
+        padding-left: 1.7em;
+    }
+    
+    .icon-perfil-topo p{
+        margin: 0;
+        color: #141414;
+    }
+    
+    .icon-perfil-topo i{
+        font-size: 1.1em;
+        color: #141414;
+    }
+}

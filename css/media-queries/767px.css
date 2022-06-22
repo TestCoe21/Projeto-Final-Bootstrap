@@ -1,0 +1,62 @@
+/* Menu */
+
+@media (max-width: 767px){
+    .carrossel{
+        display: none;
+    }
+    #ul{
+        display: none;
+    }
+    #header-mobile{
+        display: block;
+    }
+    #micro{
+        width: 8em;
+        padding-top: 0.2em;
+    }
+    #sobre-mobile{
+        background: linear-gradient(68.15deg, #008c00 19.62%, #00b700 85.61%);
+    }
+    #pontos-mobile{
+        background: linear-gradient(68.15deg, rgb(211, 211, 0) 19.62%, rgb(248, 248, 0) 85.61%);
+    }
+    #cursos-mobile{
+        background: linear-gradient(68.15deg, rgb(216, 141, 0) 19.62%, rgb(240, 157, 2) 85.61%);
+    }
+    #loja-mobile{
+        background: linear-gradient(68.15deg, rgb(111, 63, 0, 0.9) 19.62%, rgb(147, 84, 0, 0.9) 85.61%);
+    }
+    #blog-mobile{
+        background: linear-gradient(68.15deg, rgb(215, 215, 215) 19.62%, rgb(255, 255, 255) 85.61%);
+    }
+    #fotos-mobile{
+        background: linear-gradient(68.15deg, rgb(46, 96, 221) 19.62%, rgb(83, 132, 255) 85.61%);
+    }
+    #leitura-mobile{
+        background: linear-gradient(68.15deg, rgb(235, 46, 46) 19.62%, rgb(212, 21, 21) 85.61%);
+    }
+    .navbar-nav a{
+        font-weight: 700;
+        margin-left: 0.5em;
+    }
+    .navbar-nav li{
+        border-radius: 10px;
+    }
+    #home-mobile{
+        border: solid 0.3px black;
+        border-radius: 10px;
+    }
+    #is-mobile{
+        text-align: center;
+    }
+    #i-mobile{
+        font-size: 2.5em;
+        color: rgb(0, 0, 0, 0.8);
+        padding-top: 0.2em;
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+    }
+    #topo{
+        display: none;
+    }
+}

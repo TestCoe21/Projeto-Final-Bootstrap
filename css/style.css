@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background: rgb(209,209,209);
+    background: linear-gradient(90deg, rgba(209,209,209,1) 0%, rgb(231, 231, 231) 35%, rgb(236, 235, 235) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a:hover{
+    text-decoration: none;
+}

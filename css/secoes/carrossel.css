@@ -1,0 +1,29 @@
+/* Carrossel */
+
+.carrossel{
+    padding-top: 16em;
+    max-width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto-carrossel{
+    color: black;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255, 0.25);
+}
+
+.visually-hidden{
+    background-color: rgba(0, 0, 0, 0.8) ;
+}
+
+.carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 1.5em;
+}
+
+.carousel-control-prev-icon{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 1.5em;
+}
