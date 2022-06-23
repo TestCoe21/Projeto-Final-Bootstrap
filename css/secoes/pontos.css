@@ -1,0 +1,42 @@
+#pontos-section > div > h2{
+    padding-top: 1.5em;
+}
+.col-4 h4{
+    text-align: center;
+    font-size: 2.5em;
+}
+.p-ponto{
+    text-align: left;
+    font-size: 1em;
+    margin: 0;
+    margin-top: 0.9em;
+}
+.col-2 i{
+    color: rgb(37, 37, 37);
+    font-size: 1.2em;
+    padding-right: 1.5em;
+    margin-top: 0;
+}
+
+#pontos-section > div.container > div > div.col-2 > div > button:nth-child(4) > a > i{
+    padding-right: 0;
+}
+
+#letra-btn{
+    position: absolute;
+    width: auto;
+}
+
+.col-2 > div > button{
+    width: 10px;
+    margin-right: 1.29em;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+#pontos-section > div.container > div:nth-child(2) > div.col-2 > div > button > a > i{
+    position: absolute;
+    top: -.4em;
+    left: -.001em;
+}

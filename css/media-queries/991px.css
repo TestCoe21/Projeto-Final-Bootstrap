@@ -118,4 +118,27 @@
         font-size: 0.9em;
         color: #141414;
     }
+    
+    .col-4 h4{
+        text-align: center;
+        font-size: 1.7em;
+    }
+    .col-6 p{
+        text-align: left;
+        font-size: 0.8em;
+        margin: 0;
+        margin-top: 0.65em;
+    }
+    .col-2{
+        display: flex;
+    }
+    .col-2 i{
+        color: rgb(37, 37, 37);
+        font-size: 0.9em;
+        padding-right: 0.2em;
+        margin-top: 0;
+    }
+    #pontos-section > div.container > div > div.col-2 > div > button:nth-child(4) > a > i{
+        padding-right: 0;
+    }
 }

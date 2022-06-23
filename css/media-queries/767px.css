@@ -59,4 +59,13 @@
     #topo{
         display: none;
     }
+    .row{
+        display: flex;
+    }
+    .col{
+        border: none;
+    }
+    #pontos-section > div.container > div > div.col-6 > p{
+        margin-top: 0;
+    }
 }

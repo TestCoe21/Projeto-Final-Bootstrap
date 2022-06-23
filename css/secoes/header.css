@@ -54,7 +54,7 @@
 .linha1{
     height: 2px;
     width: 50%;
-    background: linear-gradient(5deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0, 0) 35%, rgb(0, 0, 0, 0.5) 100%);
+    background: linear-gradient(5deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0, 0) 35%, rgb(0, 0, 0, 0.5) 80%);
 }
 
 .linha2{

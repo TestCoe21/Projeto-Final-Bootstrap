@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/secoes/carrossel.css">
     <link rel="stylesheet" href="css/secoes/header.css">
     <link rel="stylesheet" href="css/secoes/sobre.css">
+    <link rel="stylesheet" href="css/secoes/pontos.css">
     <link rel="stylesheet" href="css/media-queries/1199px.css">
     <link rel="stylesheet" href="css/media-queries/991px.css">
     <link rel="stylesheet" href="css/media-queries/767px.css">
@@ -388,43 +389,38 @@
             <nav class="menu" id="nav">
                 <ul id="ul">
                     <li class="dropdown">
-                        <a href="#sobre-section" id="sobre" class="dropbtn">Sobre nós</a>
+                        <a href="#sobre-section" id="sobre" class="dropbtn anchor">Sobre nós</a>
                         <div class="dropdown-content sobre">
-                            <a href="#sobre-section" class="ancor">História</a>
-                            <a href="#filosofia-section" class="ancor">Filosofia</a>
-                            <a href="#filosofia-section" class="ancor">Localização</a>
-                            <a href="#agenda-section" class="ancor">Agenda</a>
+                            <a href="#historia-section" class="anchor">História</a>
+                            <a href="#filosofia-section" class="anchor">Filosofia</a>
+                            <a href="#localizacao-section" class="anchor">Localização</a>
+                            <a href="#agenda-section" class="anchor">Agenda</a>
                         </div>
                     </li>
                     <li class="dropdown">
-                        <a href="#pontos-section" id="pontos" class="dropbtn">Pontos</a>
-                        <div class="dropdown-content pontos">
-                            <a href="#download-section" class="ancor">Download</a>
-                            <a href="#letras-section" class="ancor">Letras</a>
-                            <a href="#entidades-section" class="ancor">Entidades</a>
-                        </div>
+                        <a href="#pontos-section" id="pontos" class="dropbtn anchor">Pontos</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#cursos-section" id="cursos" class="dropbtn">Cursos</a>
+                        <a href="#cursos-section" id="cursos" class="dropbtn anchor">Cursos</a>
                         <div class="dropdown-content cursos">
-                            <a href="#comunidade-section" class="ancor">Comunidade</a>
-                            <a href="#corrente-section" class="ancor">Corrente</a>
+                            <a href="#comunidade-section" class="anchor">Comunidade</a>
+                            <a href="#corrente-section" class="anchor">Corrente</a>
                         </div>
                     </li>
                     <li class="dropdown">
-                        <a href="#loja-section" id="loja" class="dropbtn ancor">Nossa loja</a>
+                        <a href="#loja-section" id="loja" class="dropbtn anchor">Nossa loja</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#blog-section" id="blog" class="dropbtn ancor">Blog</a>
+                        <a href="#blog-section" id="blog" class="dropbtn anchor">Blog</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#fotos-section" id="fotos" class="dropbtn ancor">Fotos</a>
+                        <a href="#fotos-section" id="fotos" class="dropbtn anchor">Fotos</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#leitura-section" id="leitura" class="dropbtn">Leitura</a>
+                        <a href="#leitura-section" id="leitura" class="dropbtn anchor">Leitura</a>
                         <div class="dropdown-content leitura">
-                            <a href="#livros-section" class="ancor">Livros</a>
-                            <a href="#textos-section" class="ancor">Textos</a>
+                            <a href="#livros-section" class="anchor">Livros</a>
+                            <a href="#textos-section" class="anchor">Textos</a>
                         </div>
                     </li>
                 </ul>
@@ -459,14 +455,9 @@
                     </ul>
                   </li>
                   <li class="nav-item dropdown" id="pontos-mobile">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Pontos
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Download</a></li>
-                      <li><a class="dropdown-item" href="#">Letras</a></li>
-                      <li><a class="dropdown-item" href="#">Entidades</a></li>
-                    </ul>
                   </li>
                   <li class="nav-item dropdown" id="cursos-mobile">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -558,18 +549,22 @@
     </div>
 
     <!-- Sobre nós -->
-    <div class="sobre">
+    <div class="sobre-section" id="sobre-section">
         <div class="container">
             <h2>Sobre nós</h2>
             <div class="row">
-                <div class="col">
+                <div class="col left" id="historia-section">
                   <h4>História</h4>
                   <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto beatae minima, hic quia qui vel veniam similique! Voluptas nihil magni optio quidem quo excepturi quam qui cumque. Quis, reiciendis quia?
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, iure dolore eaque similique explicabo nobis minima recusandae quibusdam, neque perferendis aperiam? Quas, rem. Iusto fuga veritatis eaque adipisci necessitatibus autem?
                   </p>
                 </div>
-                <div class="col">
+                <div class="linha linha-sobre" id="linha-mobile">
+                    <div class="linha1"></div>
+                    <div class="linha2"></div>
+                </div>
+                <div class="col right" id="filosofia-section">
                   <h4>Filosofia</h4>
                   <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore necessitatibus veritatis, minima est possimus ipsa illo, atque perspiciatis hic harum et unde animi officia in quibusdam quis similique quas.
@@ -577,12 +572,20 @@
                   </p>
                 </div>
             </div>
+            <div class="linha linha-sobre">
+                <div class="linha1"></div>
+                <div class="linha2"></div>
+            </div>
             <div class="row">
-                <div class="col">
+                <div class="col left" id="localizacao-section">
                   <h4>Localização</h4>
                   <img src="img/mapa.JPG" class="img-sobre" alt="">
                 </div>
-                <div class="col">
+                <div class="linha linha-sobre" id="linha-mobile">
+                    <div class="linha1"></div>
+                    <div class="linha2"></div>
+                </div>
+                <div class="col right" id="agenda-section">
                   <h4>Agenda</h4>
                   <img src="img/calendario.jpg" class="img-sobre" alt="">
                 </div>
@@ -590,8 +593,260 @@
         </div>
     </div>
 
+    <!-- Pontos -->
+    <div id="pontos-section">
+        <div class="container">
+            <h2>Pontos mais populares</h2>
+            <div class="row">
+                <div class="col-4">
+                    <h4>Hino de umbanda</h4>
+                </div>
+                <div class="col-6">
+                    <p class="p-ponto">Composição: José Manoel Alves</p>
+                </div>
+                <div class="col-2">
+                    <div>
+                        <a href="#pontos-section"><i class="fas fa-file-download"></i></a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#letra-hino">
+                            <a href="#pontos-section"><i class="fas fa-pencil-alt"></i></a>
+                        </button>
+                        <div class="modal fade" id="letra-hino" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Letra - Hino de umbanda</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <div class="modal-body">
+                                    Refletiu a luz divina <br>
+                                    Com todo o seu esplendor <br>
+                                    Vem do reino de Oxalá <br>
+                                    Onde há paz e amor <br><br>
+                                    
+                                    Luz que refletiu na terra <br>
+                                    Luz que refletiu no mar <br>
+                                    Luz que veio d'Aruanda <br>
+                                    Para tudo iluminar <br><br>
+                                    
+                                    A Umbanda é paz e amor <br>
+                                    É um mundo cheio de luz <br>
+                                    É força que nos da vida <br>
+                                    E a grandeza nos conduz <br><br>
+                                    
+                                    Avante filhos de fé <br>
+                                    Como a nossa lei não há <br>
+                                    Leando ao mundo inteiro <br>
+                                    A bandeira de Oxalá <br>
+                                    Levando ao mundo inteiro <br>
+                                    A bandeira de Oxalá <br>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rei-hino">
+                            <a href="#pontos-section"><i class="fas fa-play-circle"></i></a>
+                        </button>
+                        <div class="modal fade" id="rei-hino" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Música - Rei da demanda</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NpDXmqxMB7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h4>Rei da demanda</h4>
+                </div>
+                <div class="col-6">
+                    <p class="p-ponto">Composição: Desconhecido</p>
+                </div>
+                <div class="col-2">
+                    <div>
+                        <a href="#pontos-section"><i class="fas fa-file-download"></i></a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#letra-rei">
+                            <a href="#pontos-section"><i class="fas fa-pencil-alt"></i></a>
+                        </button>
+                        <div class="modal fade" id="letra-rei" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Letra - Rei da demanda</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <div class="modal-body">
+                                    Rei da demanda é Ogum Megê <br>
+                                    Quem rola pedra é Xangô, Kaô <br> <br>
+
+                                    Flecha de Oxóssi é certeira, é <br>
+                                    E Oxalá é meu senhor <br> <br>
+
+                                    7 linhas de Umbanda, 7 linhas pra vencer  <br>
+                                    Na lei de Oxalá, ninguém pode perecer <br> <br>
+
+                                    Tem Oxum na cachoeira <br>
+                                    Iemanjá deusa do mar  <br> <br>
+
+                                    Iansã pra defender <br>
+                                    Pai Ogum pra demandar <br> <br>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#video-hino">
+                            <a href="#pontos-section"><i class="fas fa-play-circle"></i></a>
+                        </button>
+                        <div class="modal fade" id="video-hino" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Música - Hino de umbanda</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hQqQ-oXXOnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h4>Ao pai de cabeça</h4>
+                </div>
+                <div class="col-6">
+                    <p class="p-ponto">Composição: Desconhecido</p>
+                </div>
+                <div class="col-2">
+                    <div>
+                        <a href="#pontos-section"><i class="fas fa-file-download"></i></a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#letra-saudacao">
+                            <a href="#pontos-section"><i class="fas fa-pencil-alt"></i></a>
+                        </button>
+                        <div class="modal fade" id="letra-saudacao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Letra - Saudação ao pai de cabeça</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <div class="modal-body">
+                                    Quando a gente ergue o olhar, para ver nossa luz no alguidar <br><br>
+
+                                    Nosso pai de cabeça, do barro a lembrar, que a gente tem luz a brilhar. <br><br>
+
+                                    Se firma no pai, seu pai de cabeça, e nunca se esqueça, ele vai lhe ajudar <br><br>
+
+                                    Ele esta com você, ele esta no alguidar. Ele é índio guerreiro, é luz, é o primeiro a te iluminar. <br><br>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#video-saudacao">
+                            <a href="#pontos-section"><i class="fas fa-play-circle"></i></a>
+                        </button>
+                        <div class="modal fade" id="video-saudacao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Música - Saudação ao pai de cabeça</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/y2VJmZO2EKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h4>Ogum Naruê</h4>
+                </div>
+                <div class="col-6">
+                    <p class="p-ponto">Composição: Desconhecido</p>
+                </div>
+                <div class="col-2">
+                    <div>
+                        <a href="#pontos-section"><i class="fas fa-file-download"></i></a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#letra-ogum">
+                            <a href="#pontos-section"><i class="fas fa-pencil-alt"></i></a>
+                        </button>
+                        <div class="modal fade" id="letra-ogum" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Letra - Ogum Naruê</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <div class="modal-body">
+                                    Magia, magia que faz o meu corpo tremer. <br>
+                                    Magia, magia que chega em silêncio sem a gente ver. <br><br>
+
+                                    É o Senhor Ogum, é o rei da magia que veio nos socorrer. <br>
+                                    É o Senhor Ogum, quem vence a magia é Ogum Naruê.
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#video-ogum">
+                            <a href="#pontos-section"><i class="fas fa-play-circle"></i></a>
+                        </button>
+                        <div class="modal fade" id="video-ogum" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Música - Ogum Naruê</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mg93DSPKfcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Scripts -->
     <div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script>
+            var $doc = $('html, body');
+            $('.anchor').click(function() {
+                $doc.animate({
+                    scrollTop: $( $.attr(this, 'href') ).offset().top
+                }, 400);
+                return false;
+            });
+        </script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
         <script src="https://kit.fontawesome.com/7e78056b17.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

@@ -1,4 +1,4 @@
-.sobre{
+.sobre-section{
     padding-top: 3em;
 }
 
@@ -16,9 +16,39 @@ h4{
     padding-bottom: 1em;
 }
 
+.col p{
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+@media (min-width:768px){
+    #linha-mobile{
+        display: none;
+    }
+    .carrossel-mobile{
+        display: none;
+    }
+}
+
+.linha-sobre{
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+}
+
+.left{
+    border-right: 0.001em solid rgba(0, 0, 0, 0.3);
+}
+
+.right{
+    border-left: 0.001em solid rgba(0, 0, 0, 0.3);
+}
+
 .img-sobre{
     max-width: 100%;
     min-width: 100%;
     max-height: 80%;
     min-height: 80%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
